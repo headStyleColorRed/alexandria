@@ -1,6 +1,6 @@
 const express = require("express")
 const app = express();
-const puerto = 80;
+const puerto = 8750;
 const bodyParser = require("body-parser")
 const Cors = require("cors")
 const mongoose = require("mongoose")
@@ -11,9 +11,9 @@ const Validation = require("./tools/validation.js")
 
 // Set environment
 if (environment == "production")
-    dbLink = "mongodb://board_DB:27017/mongoboard"
+    dbLink = "mongodb://book_DB:27017/mongobook"
 else
-    dbLink = "mongodb://localhost:27017/mongoboard"
+    dbLink = "mongodb://localhost:27017/mongobook"
 
 // Middlewares
 app.use(Cors());
