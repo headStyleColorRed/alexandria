@@ -1,6 +1,6 @@
 const express = require("express")
 const app = express();
-const puerto = 8750;
+const puerto = 80;
 const bodyParser = require("body-parser")
 const Cors = require("cors")
 const mongoose = require("mongoose")
@@ -18,7 +18,6 @@ else
 // Middlewares
 app.use(Cors());
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({ extended: false }))
 
 // Open port
 app.listen(puerto, () => console.log("Listening port " + puerto))
@@ -37,9 +36,11 @@ let timeOut = setInterval(() => {
 
 // ++++++++++++++++ HTTP METHODS +++++++++++++++++++ //
 
+
+
 // Server status
 app.get("/", (req, res) => {
-    res.send("Alexandria Server is up and running! :D")
+    res.sendFile(__dirname + "/dist/index.html")
 })
 
 // Get al user books

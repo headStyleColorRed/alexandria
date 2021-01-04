@@ -1,0 +1,19 @@
+version: "3.5"
+services:
+  book-server:
+    container_name: book-server
+    restart: always
+    networks: 
+      - Book-network
+    build: .
+    ports:
+      - "80:8750"
+  book-mongo:
+    container_name: book_DB
+    networks: 
+      - Book-network
+    image: mongo
+
+networks:
+  Book-network:
+    name: Book-network
