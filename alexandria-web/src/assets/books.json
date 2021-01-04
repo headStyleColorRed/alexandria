@@ -1,0 +1,82 @@
+[
+    {
+        "id": "asdfInsólitasjo2eifj",
+        "title": "Insólitas",
+        "author": "Teresa López-Pellisa",
+        "year": "1942",
+        "img": "https://static.megustaleer.com/images/libros_650_x/EH405173.jpg",
+        "editorial": "Páginas de Espuma",
+        "borrowed": false,
+        "borrowedTo": ""
+    },
+    {
+        "id": "asdfUnajo2eifj",
+        "title": "Una educación",
+        "author": "Tara westover",
+        "year": "1942",
+        "img": "https://static.megustaleer.com/images/libros_650_x/EH405173.jpg",
+        "editorial": "debolsillo",
+        "borrowed": false,
+        "borrowedTo": ""
+    },
+    {
+        "id": "asdfPisojo2eifj",
+        "title": "Piso para dos",
+        "author": "Beth O'leary",
+        "year": "1942",
+        "img": "https://static.megustaleer.com/images/libros_650_x/EH405173.jpg",
+        "editorial": "debolsillo",
+        "borrowed": true,
+        "borrowedTo": "Macarena"
+    },
+    {
+        "id": "asdfSinuhéjo2eifj",
+        "title": "Sinuhé el egipcio",
+        "author": "Mika Waltary",
+        "year": "1942",
+        "img": "https://static.megustaleer.com/images/libros_650_x/EH405173.jpg",
+        "editorial": "Plaja Janes",
+        "borrowed": false,
+        "borrowedTo": ""
+    },
+    {
+        "id": "asdfEljo2eifj",
+        "title": "El infinito en un junco",
+        "author": "Irene vallejo",
+        "year": "1942",
+        "img": "https://static.megustaleer.com/images/libros_650_x/EH405173.jpg",
+        "editorial": "Siruela",
+        "borrowed": false,
+        "borrowedTo": ""
+    },
+    {
+        "id": "asdfPiasdfsojo2eifj",
+        "title": "Piso para dos",
+        "author": "Beth O'leary",
+        "year": "1942",
+        "img": "https://static.megustaleer.com/images/libros_650_x/EH405173.jpg",
+        "editorial": "debolsillo",
+        "borrowed": true,
+        "borrowedTo": "Macarena"
+    },
+    {
+        "id": "asdfSinasdfuhéjo2eifj",
+        "title": "Sinuhé el egipcio",
+        "author": "Mika Waltary",
+        "year": "1942",
+        "img": "https://static.megustaleer.com/images/libros_650_x/EH405173.jpg",
+        "editorial": "Plaja Janes",
+        "borrowed": false,
+        "borrowedTo": ""
+    },
+    {
+        "id": "asdfElasdfjo2eifj",
+        "title": "El infinito en un junco",
+        "author": "Irene vallejo",
+        "year": "1942",
+        "img": "https://static.megustaleer.com/images/libros_650_x/EH405173.jpg",
+        "editorial": "Siruela",
+        "borrowed": false,
+        "borrowedTo": ""
+    }
+]
