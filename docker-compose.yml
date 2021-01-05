@@ -7,7 +7,7 @@ services:
       - Book-network
     build: ./server
     ports:
-      - "8750:8750"
+      - "3001:8750"
   book-web:
     container_name: book-web
     restart: always
@@ -15,7 +15,7 @@ services:
       - Book-network
     build: ./alexandria-web/
     ports:
-      - "8751:80"
+      - "3000:80"
   book-mongo:
     container_name: book_DB
     networks: 
