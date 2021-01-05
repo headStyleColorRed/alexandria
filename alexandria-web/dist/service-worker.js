@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.9e79ccdb794e5b652cebf1bdc0a52500.js"
+  "/precache-manifest.6e6451a342ebe0969a41dc7dba28bccb.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "alexandria-web"});
